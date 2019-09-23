@@ -1,0 +1,19 @@
+{
+  "name": "reactexpress",
+  "version": "1.0.0",
+  "description": "react express follow along tutorial",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasterix/express-react-starter.git"
+  },
+  "author": "jasterix",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jasterix/express-react-starter/issues"
+  },
+  "homepage": "https://github.com/jasterix/express-react-starter#readme"
+}
