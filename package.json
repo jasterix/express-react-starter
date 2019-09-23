@@ -7,10 +7,6 @@
     "start": "node server.js",
     "server": "nodemon server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jasterix/express-react-starter.git"
-  },
   "author": "jasterix",
   "license": "MIT",
   "bugs": {
@@ -19,8 +15,9 @@
   "homepage": "https://github.com/jasterix/express-react-starter#readme",
   "dependencies": {
     "concurrently": "^4.1.2",
-    "create-react-app": "^3.1.2",
-    "express": "^4.17.1"
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^0.20.0"
   },
   "devDependencies": {
     "nodemon": "^1.19.2"

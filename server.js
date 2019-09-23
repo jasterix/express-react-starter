@@ -1,7 +1,9 @@
 const express = require('express')
+const cors = require('cors')
 
 const app = express()
 
+app.use(cors())
 app.get('/api/customers', (req, res)=> {
   const customers = [
     {id: 1, firstName: 'John', lastName: 'Doe'},
@@ -12,6 +14,6 @@ app.get('/api/customers', (req, res)=> {
   res.json(customers)
 })
 
-const port = 5000
+const PORT = 8080
 
-app.listen(port, () => console.log(`Server started on port ${port}`))
+app.listen(PORT, () => console.log(`Server started on port ${PORT}`))
